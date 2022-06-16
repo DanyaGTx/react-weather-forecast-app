@@ -28,7 +28,7 @@ function App() {
         })
       })
       .catch(e => {
-        alert('Введите коректно город' , e)
+        alert(e.message)
         setCity('')
       });
       console.log(response)
