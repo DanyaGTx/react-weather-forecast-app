@@ -28,7 +28,7 @@ function App() {
         })
       })
       .catch(e => {
-        alert(e.message)
+        alert('City not found')
         setCity('')
       });
       console.log(response)
